@@ -11,7 +11,7 @@ gem "rspec"
 gem "rspec-its", require: false
 gem "rspec-retry", require: false
 gem "rspec-wait", require: false
-gem "rubocop"
+gem "rubocop", ">= 0.86.0"
 gem "simplecov", require: false
 if ENV["HOMEBREW_SORBET"]
   gem "sorbet"
@@ -25,6 +25,6 @@ gem "concurrent-ruby"
 gem "mechanize"
 gem "patchelf" if ENV["HOMEBREW_PATCHELF_RB"]
 gem "plist"
-gem "rubocop-performance"
-gem "rubocop-rspec"
+gem "rubocop-performance", ">= 1.6.1"
+gem "rubocop-rspec", ">= 1.40.0"
 gem "ruby-macho"
